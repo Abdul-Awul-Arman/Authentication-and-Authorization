@@ -44,6 +44,15 @@ const Login = () => {
           <p className="mt-2 text-sm text-gray-400">
             Securely access your account manager
           </p>
+          
+          {/* Test Credentials Helper */}
+          <div className="mt-6 p-3 rounded-xl bg-cyan-500/5 border border-cyan-500/10 flex flex-col gap-1 items-center">
+             <p className="text-[10px] uppercase font-bold tracking-widest text-cyan-400/60 mb-1">Testing Credentials</p>
+             <div className="flex gap-3 text-xs">
+                <span className="text-gray-400">Email: <span className="text-cyan-300 font-mono select-all">john@mail.com</span></span>
+                <span className="text-gray-400">Pass: <span className="text-cyan-300 font-mono select-all">changeme</span></span>
+             </div>
+          </div>
         </div>
 
         <div className="bg-gray-900/50 backdrop-blur-xl border border-white/5 shadow-2xl rounded-2xl p-8">
